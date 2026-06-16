@@ -1,8 +1,3 @@
-/* ===== 오늘 날짜 ===== */
-const today = new Date();
-document.getElementById('today-date').textContent =
-  `${String(today.getFullYear()).slice(2)}.${today.getMonth()+1}.${today.getDate()}`;
-
 /* ===== 연도 탭 ===== */
 const tabs = document.querySelectorAll('.year-tab');
 const sections = document.querySelectorAll('.section');
