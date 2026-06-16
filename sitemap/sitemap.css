@@ -236,7 +236,7 @@ body {
 .project-date {
   font-size: 12px;
   color: var(--color-text-muted);
-  font-family: var(--font-mono);
+  font-family: var(--font-main);
   white-space: nowrap;
 }
 
