@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design Page SITEMAP</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="sitemap.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container">
+    <div class="header-top">
+      <div>
+        <h1 class="site-title">Design Page SITEMAP</h1>
+        <p class="site-meta">Updated Date | 디자인팀 강다윤 | <span id="today-date"></span></p>
+      </div>
+      <div class="legend">
+        <span class="legend-label">상태</span>
+        <span class="badge badge-new">신규</span>
+        <span class="badge badge-edit">수정</span>
+        <span class="badge badge-test">test</span>
+        <span class="badge badge-none">없음</span>
+        <span class="legend-divider"></span>
+        <span class="legend-label">디바이스</span>
+        <span class="tag tag-res">반응형</span>
+        <span class="tag tag-pc">PC</span>
+        <span class="tag tag-mo">MO</span>
+      </div>
+    </div>
+
+    <nav class="year-tabs" id="year-tabs">
+      <button class="year-tab active" data-year="2026">2026</button>
+      <button class="year-tab" data-year="2025">2025</button>
+      <button class="year-tab" data-year="logo">Logo</button>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+  <div class="container">
+
+    <!-- ===== 2026 섹션 ===== -->
+    <section class="section active" id="section-2026">
+      <div class="section-header">
+        <h2 class="section-title">2026</h2>
+        <span class="section-count" id="count-2026"></span>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">전체</button>
+        <button class="filter-btn" data-filter="res">반응형</button>
+        <button class="filter-btn" data-filter="pc">PC</button>
+        <button class="filter-btn" data-filter="mo">MO</button>
+        <input class="filter-search" type="text" placeholder="프로젝트 검색…" />
+      </div>
+
+      <div class="project-list" id="list-2026">
+
+        <!-- 세계지식포럼 -->
+        <div class="project-card" data-device="res" data-status="edit">
+          <div class="project-head">
+            <div class="project-name">세계지식포럼 안내페이지</div>
+            <div class="project-tags">
+              <span class="badge badge-edit">수정</span>
+              <span class="tag tag-res">반응형</span>
+            </div>
+            <div class="project-right">
+              <div>
+                <div class="project-person">강다윤</div>
+                <div class="project-date">2026.06.08 ~<br>2026.06.11</div>
+              </div>
+              <button class="toggle-btn" aria-label="펼치기">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-links">
+            <div class="link-row">
+              <div class="link-type">실서버</div>
+              <div class="link-url"><a href="https://www.wkforum.org" target="_blank">https://www.wkforum.org</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">사이트맵</div>
+              <div class="link-url"><a href="http://ui.mk.co.kr/design/2026/wkforum/sitemap.html" target="_blank">http://ui.mk.co.kr/design/2026/wkforum/sitemap.html</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">디자인</div>
+              <div class="link-url"><a href="/" target="_blank">-</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prix Galien Korea 2026 -->
+        <div class="project-card" data-device="res" data-status="new">
+          <div class="project-head">
+            <div class="project-name">Prix Galien Korea 2026</div>
+            <div class="project-tags">
+              <span class="badge badge-new">신규</span>
+              <span class="tag tag-res">반응형</span>
+            </div>
+            <div class="project-right">
+              <div>
+                <div class="project-person">강다윤</div>
+                <div class="project-date">2026.05.26 ~<br>2026.05.28</div>
+              </div>
+              <button class="toggle-btn" aria-label="펼치기">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-links">
+            <div class="link-row">
+              <div class="link-type">실서버</div>
+              <div class="link-url"><a href="https://www.prixgalienkr.com" target="_blank">https://www.prixgalienkr.com</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">사이트맵</div>
+              <div class="link-url"><a href="http://ui.mk.co.kr/design/2026/prix_galien_2026/prix_galien_2026.html" target="_blank">http://ui.mk.co.kr/design/2026/prix_galien_2026/prix_galien_2026.html</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">디자인</div>
+              <div class="link-url"><a href="/" target="_blank">-</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tving 멤버십 -->
+        <div class="project-card" data-device="pc mo" data-status="edit">
+          <div class="project-head">
+            <div class="project-name">(예시)Tving 멤버십 이벤트</div>
+            <div class="project-tags">
+              <span class="badge badge-edit">수정</span>
+              <span class="tag tag-pc">PC</span>
+              <span class="tag tag-mo">MO</span>
+            </div>
+            <div class="project-right">
+              <div>
+                <div class="project-person">강다윤</div>
+                <div class="project-date">2026.05.22 ~<br>2026.05.26</div>
+              </div>
+              <button class="toggle-btn" aria-label="펼치기">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-links">
+            <div class="link-row">
+              <div class="link-type">실서버</div>
+              <div class="link-url"><a href="https://www.mk.co.kr/membership" target="_blank">https://www.mk.co.kr/membership</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">사이트맵</div>
+              <div class="link-url"><a href="http://ui.mk.co.kr/design/2026/membership/membership.html" target="_blank">http://ui.mk.co.kr/design/2026/membership/membership.html</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">디자인</div>
+              <div class="link-url"><a href="/" target="_blank">-</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MK AI Audio News -->
+        <div class="project-card" data-device="res" data-status="new">
+          <div class="project-head">
+            <div class="project-name">MK 마이모닝브리핑 탑 영역 비율 조정</div>
+            <div class="project-tags">
+              <span class="badge badge-edit">수정</span>
+              <span class="tag tag-res">반응형</span>
+            </div>
+            <div class="project-right">
+              <div>
+                <div class="project-person">강다윤</div>
+                <div class="project-date">2026.05.15 ~<br>2026.05.19</div>
+              </div>
+              <button class="toggle-btn" aria-label="펼치기">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-links">
+            <div class="link-row">
+              <div class="link-type">실서버</div>
+                <div class="link-url">
+                  <div class="link-item">
+                    <a href="https://m.mk.co.kr/audio/news" target="_blank">https://m.mk.co.kr/audio/news</a>
+                    <span class="link-page">MK AI 오디오 뉴스</span>
+                  </div>
+                  <div class="link-item">
+                    <a href="https://m.mk.co.kr/audio/ai-podcasts/" target="_blank">https://m.mk.co.kr/audio/ai-podcasts/</a>
+                    <span class="link-page">마이 모닝 브리핑</span>
+                  </div>
+                </div>
+              </div>
+            <div class="link-row">
+              <div class="link-type">사이트맵</div>
+              <div class="link-url"><a href="/" target="_blank">-</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">디자인</div>
+              <div class="link-url"><a href="/" target="_blank">-</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /project-list -->
+    </section>
+
+    <!-- ===== 2025 섹션 ===== -->
+    <section class="section" id="section-2025">
+      <div class="section-header">
+        <h2 class="section-title">2025</h2>
+        <span class="section-count" id="count-2025"></span>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">전체</button>
+        <button class="filter-btn" data-filter="res">반응형</button>
+        <button class="filter-btn" data-filter="pc">PC</button>
+        <button class="filter-btn" data-filter="mo">MO</button>
+        <input class="filter-search" type="text" placeholder="프로젝트 검색…" />
+      </div>
+
+      <div class="project-list" id="list-2025">
+
+        <!-- ai 팟캐스트 -->
+        <div class="project-card" data-device="res" data-status="new">
+          <div class="project-head">
+            <div class="project-name">ai 팟캐스트</div>
+            <div class="project-tags">
+              <span class="badge badge-new">신규</span>
+              <span class="tag tag-res">반응형</span>
+            </div>
+            <div class="project-right">
+              <div>
+                <div class="project-person">강다윤</div>
+                <div class="project-date">2025.12.28 ~<br>2025.12.30</div>
+              </div>
+              <button class="toggle-btn" aria-label="펼치기">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-links">
+            <div class="link-row">
+              <div class="link-type">실서버</div>
+              <div class="link-url"><a href="https://www.mk.co.kr/audio/ai-podcasts/" target="_blank">https://www.mk.co.kr/audio/ai-podcasts/</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">사이트맵</div>
+              <div class="link-url"><a href="http://ui.mk.co.kr/design/2025/mk_my_audio/Sitemap.html" target="_blank">http://ui.mk.co.kr/design/2025/mk_my_audio/Sitemap.html</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">디자인</div>
+              <div class="link-url"><a href="http://110.13.170.207:5000/sharing/9IP2AscFK" target="_blank">http://110.13.170.207:5000/sharing/9IP2AscFK</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 매경 AX 클럽 -->
+        <div class="project-card" data-device="pc" data-status="new">
+          <div class="project-head">
+            <div class="project-name">매경 AX 클럽</div>
+            <div class="project-tags">
+              <span class="badge badge-new">신규</span>
+              <span class="tag tag-pc">PC</span>
+            </div>
+            <div class="project-right">
+              <div>
+                <div class="project-person">강다윤</div>
+                <div class="project-date">2025.12.15 ~<br>2025.12.19</div>
+              </div>
+              <button class="toggle-btn" aria-label="펼치기">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-links">
+            <div class="link-row">
+              <div class="link-type">실서버</div>
+              <div class="link-url"><a href="https://www.mk.co.kr/evt/axclub/" target="_blank">https://www.mk.co.kr/evt/axclub/</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">사이트맵</div>
+              <div class="link-url"><a href="http://ui.mk.co.kr/design/2025/mk_ax_club/index.html" target="_blank">http://ui.mk.co.kr/design/2025/mk_ax_club/index.html</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">디자인</div>
+              <div class="link-url"><a href="http://110.13.170.207:5000/sharing/aIX15g8n4" target="_blank">http://110.13.170.207:5000/sharing/aIX15g8n4</a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- mk 개편 프리미어 -->
+        <div class="project-card" data-device="res" data-status="edit">
+          <div class="project-head">
+            <div class="project-name">mk 개편 프리미어</div>
+            <div class="project-tags">
+              <span class="badge badge-edit">수정</span>
+              <span class="tag tag-res">반응형</span>
+            </div>
+            <div class="project-right">
+              <div>
+                <div class="project-person">강다윤</div>
+                <div class="project-date">2025.09.29 ~<br>2025.11.30</div>
+              </div>
+              <button class="toggle-btn" aria-label="펼치기">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-links">
+            <div class="link-row">
+              <div class="link-type">실서버</div>
+              <div class="link-url"><a href="https://www-t.mk.co.kr/premier" target="_blank">https://www-t.mk.co.kr/premier</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">사이트맵</div>
+              <div class="link-url"><a href="http://ui.mk.co.kr/design/2025/tft/sian/sian.html" target="_blank">http://ui.mk.co.kr/design/2025/tft/sian/sian.html</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">디자인</div>
+              <div class="link-url"><a href="http://110.13.170.207:5000/sharing/DHdwc1DWl" target="_blank">http://110.13.170.207:5000/sharing/DHdwc1DWl</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /project-list -->
+    </section>
+
+    <!-- ===== Logo 섹션 ===== -->
+    <section class="section" id="section-logo">
+      <div class="section-header">
+        <h2 class="section-title">Logo</h2>
+        <span class="section-count" id="count-logo"></span>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">전체</button>
+        <button class="filter-btn" data-filter="res">반응형</button>
+        <button class="filter-btn" data-filter="pc">PC</button>
+        <button class="filter-btn" data-filter="mo">MO</button>
+        <input class="filter-search" type="text" placeholder="프로젝트 검색…" />
+      </div>
+
+      <div class="project-list" id="list-logo">
+
+        <div class="project-card" data-device="res" data-status="new">
+          <div class="project-head">
+            <div class="project-name">MK 로고 리뉴얼</div>
+            <div class="project-tags">
+              <span class="badge badge-new">신규</span>
+              <span class="tag tag-res">반응형</span>
+            </div>
+            <div class="project-right">
+              <div>
+                <div class="project-person">강다윤</div>
+                <div class="project-date">2025.06.01 ~<br>2025.06.30</div>
+              </div>
+              <button class="toggle-btn" aria-label="펼치기">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M4 6l4 4 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </button>
+            </div>
+          </div>
+          <div class="project-links">
+            <div class="link-row">
+              <div class="link-type">실서버</div>
+              <div class="link-url"><span>—</span></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">사이트맵</div>
+              <div class="link-url"><a href="http://ui.mk.co.kr/design/logo/sitemap.html" target="_blank">http://ui.mk.co.kr/design/logo/sitemap.html</a></div>
+            </div>
+            <div class="link-row">
+              <div class="link-type">디자인</div>
+              <div class="link-url"><a href="http://110.13.170.207:5000/sharing/logo2025" target="_blank">http://110.13.170.207:5000/sharing/logo2025</a></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </div><!-- /container -->
+</main>
+
+<script src="sitemap.js"></script>
+</body>
+</html>
