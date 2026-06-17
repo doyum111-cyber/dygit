@@ -514,6 +514,12 @@ body {
   color: var(--color-text-primary);
 }
 
+.download-btn .material-symbols-outlined {
+  font-size: 20px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
 .download-btn-text {
   display: flex;
   flex-direction: column;
