@@ -105,6 +105,15 @@ body {
   margin: 0 4px;
 }
 
+/* s: 260617 legend 그룹 분리 */
+.legend-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+/* // e: 260617 legend 그룹 분리 */
+
 /* ===== YEAR TABS ===== */
 .year-tabs {
   display: flex;
@@ -562,7 +571,14 @@ body {
 
   .header-top { flex-direction: column; align-items: flex-start; gap: 8px; }
 
-  .legend { gap: 10px; }
+  /* s: 260617 legend 모바일 줄바꿈 */
+  .legend {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .legend-divider { display: none; }
+  /* // e: 260617 legend 모바일 줄바꿈 */
 
   .project-head {
     grid-template-columns: 1fr auto;
