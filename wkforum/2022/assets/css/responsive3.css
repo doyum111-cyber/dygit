@@ -1,0 +1,876 @@
+@media (max-width: 830px) {
+  /* ------------------------ Main Partner Section ------------------------ */
+
+  .mainOurPartnerWrap ul.slick-dots {
+    position: absolute;
+    bottom: -3rem;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 11;
+  }
+
+  .mainOurPartnerWrap ul.slick-dots > li button {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    height: 10px;
+    width: 10px;
+    color: transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .mainOurPartnerWrap ul.slick-dots > li.slick-active button {
+    background-color: var(--theme-color);
+  }
+
+  .text-white_e {
+    margin-bottom: 20px !important;
+  }
+
+  /* ------------------------ Main Partner Section ------------------------ */
+
+  /* ------------------------ Main WKF Introduce Section ------------------------ */
+
+  .thm-btn.brd-btn.main_t1_BtWrap {
+    padding: 16px 30px;
+  }
+
+  /* ------------------------ Main WKF Introduce Section ------------------------ */
+
+  /* ------------------------ Main WKF VIP Speaker Section ------------------------ */
+
+  .main_speakerMoreBt {
+    font-size: 16px;
+  }
+
+  /* ------------------------ Main WKF VIP Speaker Section ------------------------ */
+
+  /* ------------------------ Main WKF Program Section ------------------------ */
+
+  .mainProgramDownBt {
+    font-size: 17px;
+  }
+
+  /* ------------------------ Main WKF Program Section ------------------------ */
+
+  /* ------------------------ Main Knowledge stream Section ------------------------ */
+
+  .mainKnowledgeBt {
+    font-size: 17px;
+  }
+
+  .knowledgeWrap > button.slick-prev {
+    left: 91%;
+  }
+  .mainnTitle2_e {
+    font-size: 38px !important;
+  }
+  .knowledgeTxt_e {
+    line-height: 1.5;
+  }
+
+  /* ------------------------ Main Knowledge stream Section ------------------------ */
+
+  /* ------------------------ Main Knowledge archive Section ------------------------ */
+
+  .mainArchiveBt {
+    font-size: 17px;
+  }
+
+  .archiveWrap > button.slick-prev {
+    left: 91%;
+  }
+
+  /* ------------------------ Main Knowledge archive Section ------------------------ */
+
+  /* ------------------------ Main Notice Section ------------------------ */
+
+  .mainNoticeImgIcon {
+    margin-right: 15px;
+  }
+  .noticeTitleWrap {
+    margin-bottom: 5px;
+  }
+  .noticeMainTitle {
+    width: 78%;
+  }
+
+  /* ------------------------ Main Notice Section ------------------------ */
+
+  /* ------------------------ Main Footer Section ------------------------ */
+
+  .familyContentWrap {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .familyLogoWrap {
+    width: 100%;
+  }
+
+  /* ------------------------ Main Footer Section ------------------------ */
+
+  /* ------------------------ sub Common ------------------------ */
+  .m-d-none {
+    display: none !important;
+  }
+  .m-mb-20 {
+    margin-bottom: 20px;
+  }
+
+  /* ------------------------ sub Common ------------------------ */
+
+  /* ------------------------ sub 1-1 ------------------------ */
+
+  .m-t-mt-0 {
+    margin-top: 0;
+  }
+  .sub1_1_txtPWrap .sub1_1_txtG {
+    font-size: 24px;
+  }
+
+  .m-mt-20 {
+    margin-top: 20px;
+  }
+  .sub1-1_txt_e {
+    font-size: 15px;
+    padding: 18px 26px !important;
+  }
+
+  .subTop_title_e {
+    font-size: 34px;
+  }
+
+  /* ------------------------ sub 1-1 ------------------------ */
+
+  /* ------------------------ sub 1-2 ------------------------ */
+
+  #subContent1 .ceoTxtDiv.ceoTxtDiv_e {
+    margin-top: -80px;
+  }
+
+  /* ------------------------ sub 1-2 ------------------------ */
+
+  /* ------------------------ sub 1-5 ------------------------ */
+
+  .socialReportWrap .innerbox1 {
+    border-right: 0;
+  }
+
+  /* ------------------------ sub 1-5 ------------------------ */
+
+  /* ------------------------ sub 1-6 ------------------------ */
+
+  .subPartnerLogoWrap {
+    width: 32%;
+  }
+  .mr-11:nth-child(3n) {
+    margin-right: 0;
+  }
+  .mr-11:nth-child(5n) {
+    margin-right: 14px;
+  }
+
+  .bannerImgWrap ul.slick-dots {
+    position: absolute;
+    bottom: -3rem;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 11;
+  }
+
+  .bannerImgWrap ul.slick-dots > li button {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    height: 10px;
+    width: 10px;
+    color: transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .bannerImgWrap ul.slick-dots > li.slick-active button {
+    background-color: var(--theme-color);
+  }
+  .bannerImgWrap {
+    width: 80%;
+  }
+
+  /* ------------------------ sub 1-6 ------------------------ */
+
+  /* ------------------------ sub 2-2 ------------------------ */
+
+  .programSessionWrap .md-check {
+    display: none;
+  }
+  .totalPrintBt {
+    display: none !important;
+  }
+  .chkPrintBt {
+    display: none !important;
+  }
+  /* ------------------------ sub 2-2 ------------------------ */
+
+  /* ------------------------ sub 2-3 ------------------------ */
+
+  .subMiddleBtWrap .subBtTitleA,
+  .subMiddleBtWrap .subBtTitleB {
+    font-size: 11px !important;
+  }
+
+  /* ------------------------ sub 2-3 ------------------------ */
+
+  /* ------------------------ sub 5-1 ------------------------ */
+
+  .sub5_1_highProBtWrap .sub5_1_Bt_1,
+  .sub5_1_highProBtWrap .sub5_1_Bt_2,
+  .sub5_1_highProBtWrap .sub5_1_Bt_3 {
+    font-size: 13px;
+    padding: 14px 0 13px 0;
+    width: 32.6%;
+  }
+  .sub5PFsubDatetxt {
+    margin-bottom: 8px;
+  }
+  .m-pr-0 {
+    padding-right: 0;
+  }
+
+  .sub5PFsubTitletxt_e {
+    font-size: 17px;
+  }
+
+  /* ------------------------ sub 5-1 ------------------------ */
+
+  /* ------------------------ sub 6-1 ------------------------ */
+
+  .m-t-mt-0 {
+    margin-top: 0;
+  }
+  .sub6_newsTitleTxt {
+    font-size: 20px;
+  }
+
+  /* ------------------------ sub 6-1 ------------------------ */
+
+  /* ------------------------ sub 6-3 ------------------------ */
+
+  .contentImgBody {
+    border-bottom: 0;
+  }
+  .sub6_3_moveBt {
+    margin-bottom: 40px;
+  }
+  .contentImgBody {
+    padding-top: 0;
+  }
+
+  .m-t-pb-0 {
+    padding-bottom: 0;
+  }
+
+  /* ------------------------ sub 6-3 ------------------------ */
+
+  /* ------------------------ sessionPop Modal ------------------------ */
+  .sessionPopSessionTitle {
+    font-size: 20px;
+  }
+  .sessionPopTxtA {
+    font-size: 18px;
+  }
+
+  /* ------------------------ sessionPop Modal ------------------------ */
+}
+
+@media (max-width: 670px) {
+  header.style1 .header-right-btns {
+    margin-top: 19px;
+  }
+
+  /* ------------------------ Main top slick Section ------------------------ */
+  .feat-item {
+    padding-top: 7rem;
+  }
+  .Trailershowbt .play {
+    width: 28%;
+  }
+  .text-white_e {
+    font-size: 40px !important;
+    font-weight: 800 !important;
+    line-height: 40px !important;
+    margin-bottom: 12px !important;
+  }
+  .text-white_e span {
+    font-size: 23px !important;
+  }
+  .feat-cap-Title_e {
+    font-size: 17px !important;
+    margin-bottom: 10px;
+  }
+  .feat-cap-TitleB_e {
+    font-size: 14px !important;
+    margin-bottom: 40px !important;
+  }
+
+  .feat-cap > h3 > span {
+    display: inline-block;
+    line-height: 1.2 !important;
+    margin-top: 10px;
+    font-size: 29px;
+  }
+  /* ------------------------ Main top slick Section ------------------------ */
+
+  /* ------------------------ Main WKF Introduce Section ------------------------ */
+
+  .main_t1_BtImg {
+    background-size: 26px;
+    height: 26px;
+    width: 26px;
+  }
+  .thm-btn.brd-btn:hover > .main_t1_BtImg {
+    background-size: 26px;
+    height: 26px;
+    width: 26px;
+  }
+  .thm-btn.brd-btn {
+    padding: 16px 24px;
+  }
+
+  .mainnTitle1_e {
+    font-size: 30px !important;
+    line-height: 35px;
+  }
+  /* ------------------------ Main WKF Introduce Section ------------------------ */
+
+  /* ------------------------ Main WKF VIP Speaker Section ------------------------ */
+
+  .main_speakerMoreBt {
+    padding: 10px 0;
+    width: 47.7%;
+  }
+
+  /* ------------------------ Main WKF VIP Speaker Section ------------------------ */
+
+  /* ------------------------ Main WKF Program Section ------------------------ */
+
+  #sessionListWrap {
+    height: 375px;
+  }
+  #sessionListWrap .fa-chevron-right {
+    font-size: 13px;
+  }
+  .mainProgramDownBt {
+    padding: 15px 36.8px;
+  }
+
+  /* ------------------------ Main WKF Program Section ------------------------ */
+
+  /* ------------------------ Main counter Section ------------------------ */
+
+  .countContentWrap {
+    margin-left: 23px;
+  }
+
+  /* ------------------------ Main counter Section ------------------------ */
+
+  /* ------------------------ Main Notice Section ------------------------ */
+
+  .mainNoticeImgIcon {
+    margin-right: -15px;
+  }
+
+  .noticeMainTitle {
+    overflow: hidden;
+    max-width: 215px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    line-height: 1.5;
+    height: 44px;
+    text-align: center;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+  }
+
+  .mainNoticeImgIcon {
+    margin-bottom: 19px;
+  }
+
+  .noticeMainDate_e {
+    font-size: 13px;
+  }
+  /* ------------------------ Main Notice Section ------------------------ */
+
+  /* ------------------------ Main Knowledge stream Section ------------------------ */
+
+  .mainnTitle2_e {
+    font-size: 30px !important;
+  }
+  .mainKnowledgeBtArrow {
+    width: 16px;
+    height: 12px;
+    margin-top: 3px;
+    margin-right: -15px;
+  }
+  .knowledgeWrap > button.slick-arrow {
+    top: 19.225rem;
+    right: 0.9%;
+  }
+  .knowledgeWrap > button.slick-prev {
+    left: 81.8%;
+  }
+
+  /* ------------------------ Main Knowledge stream Section ------------------------ */
+
+  /* ------------------------ Main Knowledge archive Section ------------------------ */
+
+  .mainArchiveBtArrow {
+    width: 16px;
+    height: 12px;
+    margin-top: 3px;
+    margin-right: -15px;
+  }
+  .archiveWrap > button.slick-arrow {
+    top: 20.525rem;
+    right: 0.9%;
+  }
+  .archiveWrap > button.slick-prev {
+    left: 81.8%;
+  }
+
+  /* ------------------------ Main Knowledge archive Section ------------------------ */
+
+  /* ------------------------ Main Notice Section ------------------------ */
+
+  .mainnTitle3 {
+    font-size: 30px;
+  }
+  .mainnTitle3_e {
+    margin-bottom: 7px;
+  }
+
+  /* ------------------------ Main Notice Section ------------------------ */
+
+  /* ------------------------ Main Partner Section ------------------------ */
+
+  .mainOurPartnerWrap ul.slick-dots {
+    position: absolute;
+    bottom: -3rem;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 11;
+  }
+
+  .mainOurPartnerWrap ul.slick-dots > li button {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    height: 10px;
+    width: 10px;
+    color: transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .mainOurPartnerWrap ul.slick-dots > li.slick-active button {
+    background-color: var(--theme-color);
+  }
+
+  /* ------------------------ Main Partner Section ------------------------ */
+
+  /* ------------------------ Sub partner ------------------------ */
+  .subPartnerLogoWrap {
+    width: 100%;
+    margin-right: 0;
+  }
+  .bannerImgWrap {
+    width: 100%;
+  }
+
+  .bannerImgWrap ul.slick-dots {
+    position: absolute;
+    bottom: -3rem;
+    text-align: center;
+    left: 0;
+    right: 0;
+    z-index: 11;
+  }
+
+  .bannerImgWrap ul.slick-dots > li button {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    height: 10px;
+    width: 10px;
+    color: transparent;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+  }
+
+  .bannerImgWrap ul.slick-dots > li.slick-active button {
+    background-color: var(--theme-color);
+  }
+
+  /* ------------------------ Sub partner ------------------------ */
+
+  /* ------------------------ Sub common ------------------------ */
+
+  .titleTopLineA {
+    width: 42px;
+    height: 6px;
+  }
+
+  .m-pb-90 {
+    padding-bottom: 90px;
+  }
+
+  .subTop_title_e {
+    font-size: 33px;
+    text-align: center;
+  }
+
+  /* ------------------------ Sub common ------------------------ */
+
+  /* ------------------------ sub 1-1 ------------------------ */
+
+  .sub1_1_txtPWrap .sub1_1_txtG {
+    font-size: 16px;
+  }
+  .sub1-1_txt_e {
+    word-break: break-word;
+    height: 100%;
+    font-size: 17px;
+  }
+  .m-h-70 {
+    height: 70px;
+  }
+  .sub1-1_insta img {
+    width: 32px;
+  }
+
+  /* ------------------------ sub 1-1 ------------------------ */
+
+  /* ------------------------ sub 1-2 ------------------------ */
+
+  .mapTxtWrapA p {
+    font-size: 15px;
+  }
+  #subContent1 .ceoTxtDiv.ceoTxtDiv_e {
+    margin-top: 0;
+  }
+
+  /* ------------------------ sub 1-2 ------------------------ */
+
+  /* ------------------------ sub 1-3 ------------------------ */
+
+  .mapTxtUl_e li {
+    font-size: 15px;
+    text-indent: 0;
+  }
+
+  .mapTxtDiv {
+    border-bottom: 0;
+  }
+  .mapTxtDivA {
+    border-bottom: 0;
+  }
+
+  .m-pt-0 {
+    padding-top: 0;
+  }
+
+  /* ------------------------ sub 1-3 ------------------------ */
+
+  /* ------------------------ sub 1-5 ------------------------ */
+
+  .sub1-5_arrowImg {
+    height: 22px;
+    margin-right: 5px;
+  }
+
+  .socialReportWrap .innerbox1 {
+    border-right: 0;
+  }
+  .sub1-5_line {
+    border-bottom: 0;
+  }
+  .socialTxtTitle {
+    line-height: 1.2;
+  }
+  .socialTxtTitle:before {
+    top: -5px;
+  }
+
+  /* ------------------------ sub 1-5 ------------------------ */
+
+  /* ------------------------ sub 2-1 ------------------------ */
+
+  .titleTopLineC {
+    width: 29px;
+  }
+
+  /* ------------------------ sub 2-1 ------------------------ */
+
+  /* ------------------------ sub 2-2 ------------------------ */
+
+  .thm-btn {
+    font-size: 16px;
+  }
+  .programSessionWrap .md-check {
+    display: none;
+  }
+  .sub2-2_ArrowImgWrap {
+    align-items: flex-start !important;
+  }
+  .sub2-2_ArrowImgWrap img {
+    margin-top: 3px;
+  }
+
+  .programSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+
+  .topicTxt_e_m {
+    text-align: left;
+  }
+
+  /* ------------------------ sub 2-2 ------------------------ */
+
+  /* ------------------------ sub 3-1 ------------------------ */
+
+  .speakerSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+
+  /* ------------------------ sub 3-1 ------------------------ */
+
+  /* ------------------------ sub 5-1 ------------------------ */
+
+  .pastForumTopicMenuWrap .pastForumTopicMenu {
+    font-size: 13px;
+  }
+  .pastForumTopicMenuWrap .pastForumTopicMenu:nth-child(2) {
+    width: 50%;
+  }
+  .pastForumTopicMenuWrap .pastForumTopicMenu:nth-child(6) {
+    width: 50%;
+  }
+
+  .sub5PFmainTitletxt {
+    margin-bottom: 14px;
+  }
+
+  .pastForumSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+
+  .sub5_1_highProBtWrap .sub5_1_Bt_1,
+  .sub5_1_highProBtWrap .sub5_1_Bt_2,
+  .sub5_1_highProBtWrap .sub5_1_Bt_3 {
+    font-size: 16px;
+    padding: 17px 0 16px 0;
+  }
+  .sub5PFsubDatetxt {
+    margin-bottom: 16px;
+  }
+  .sub5PFsubTitletxt_e {
+    font-size: 18px;
+  }
+
+  /* ------------------------ sub 5-1 ------------------------ */
+
+  /* ------------------------ sub 5-2 ------------------------ */
+
+  .knowledgePortalSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+
+  /* ------------------------ sub 5-2 ------------------------ */
+
+  /* ------------------------ sub 5-3 ------------------------ */
+
+  .knowlStreamSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+
+  /* ------------------------ sub 5-3 ------------------------ */
+
+  /* ------------------------ sub 5-4 ------------------------ */
+
+  .citizenSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+
+  /* ------------------------ sub 5-4 ------------------------ */
+
+  /* ------------------------ sub 5-5 ------------------------ */
+
+  .pagination-wrap .scoreRegul {
+    font-size: 15px;
+  }
+
+  .grobalForum_table_p th {
+    font-size: 13px;
+  }
+
+  /* ------------------------ sub 5-5 ------------------------ */
+
+  /* ------------------------ sub 6-1 ------------------------ */
+
+  .pastForumDetailTopicDateWrap .pastForumTxtDate {
+    font-size: 15px;
+  }
+  .newsSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+  .m-t-mt-0 {
+    margin-top: 30px;
+  }
+
+  /* ------------------------ sub 6-1 ------------------------ */
+
+  /* ------------------------ sub 6-2 ------------------------ */
+
+  .noticeSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+
+  /* ------------------------ sub 6-2 ------------------------ */
+
+  /* ------------------------ sub 6-3 ------------------------ */
+
+  .eventImgSelectWrap .schWrap input {
+    height: 50px !important;
+    background-size: 50px;
+  }
+  .contentImgBody {
+    padding-top: 0;
+  }
+
+  /* ------------------------ sub 6-3 ------------------------ */
+
+  /* ------------------------ speakerPop Modal ------------------------ */
+
+  .speakerPopTxtWrap {
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .speakerTopLineImg {
+    width: 20px;
+  }
+  .speakerPopNameTxt {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .speakerPopCompanyTxt,
+  .speakerPopPositionTxt {
+    font-size: 15px;
+  }
+  #speakerPopModal .speakerPopInfoTxt {
+    font-size: 15px;
+  }
+  .speakerPopInfoTxtContentBody {
+    padding-top: 10px;
+    padding-left: 0;
+  }
+
+  .speakerPopInfoTxtWrap {
+    height: 40%;
+  }
+  .speakerPopSessionWrap {
+    height: 50%;
+  }
+
+  .speakerPopSessionTxtA {
+    font-size: 17px;
+    margin-bottom: 8px;
+  }
+  .speakerPopSessionTitle {
+    font-size: 15px;
+  }
+
+  /* ------------------------ speakerPop Modal ------------------------ */
+
+  /* ------------------------ sessionPop Modal ------------------------ */
+
+  #sessionContentBody .row {
+    padding: 0;
+  }
+  .sessionPopInfoTxtContentBody {
+    padding-left: 0;
+    height: 90%;
+  }
+
+  .sessionPopSessionTxt {
+    font-size: 22px;
+  }
+  .sessionPopInfoTxtA {
+    font-size: 16px;
+  }
+  .sessionPopSessionTitle {
+    font-size: 18px;
+  }
+
+  #sessionPopLeftDiv {
+    height: 60%;
+  }
+  .sessionPopTxtA {
+    font-family: 'S-CoreDream-7ExtraBold';
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.7;
+  }
+  .sessionPopTimePlaceInfo,
+  .sessionPopSpeakerInfo,
+  .sessionPopModeratorInfo {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  .sessionDetailInfoWrap {
+    margin-bottom: 7px;
+  }
+
+  .sessionPopInfoTxt {
+    overflow-y: visible;
+    font-size: 15px;
+  }
+  .scoreExBold_e {
+    font-weight: 300;
+  }
+
+  /* ------------------------ sessionPop Modal ------------------------ */
+}
+
+@media (max-width: 375px) {
+  /* ------------------------ Main Knowledge stream Section ------------------------ */
+
+  .knowledgeWrap > button.slick-arrow {
+    top: 18.225rem;
+  }
+  .knowledgeWrap > button.slick-prev {
+    left: 80%;
+  }
+
+  /* ------------------------ Main Knowledge stream Section ------------------------ */
+
+  /* ------------------------ Main Knowledge archive Section ------------------------ */
+
+  .archiveWrap > button.slick-arrow {
+    top: 24.125rem;
+  }
+  .archiveWrap > button.slick-prev {
+    left: 80%;
+  }
+
+  /* ------------------------ Main Knowledge archive Section ------------------------ */
+}

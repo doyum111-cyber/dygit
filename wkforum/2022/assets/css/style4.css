@@ -1,0 +1,2108 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main top slick SectionAA ---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.highBroWrap .thm-btn.fill-btn {
+  font-size: 15px;
+}
+
+.text-white_e {
+  line-height: 57px !important;
+}
+.feat-cap-TitleB {
+  font-weight: 700;
+}
+
+.highImg,
+.brochureImg {
+  margin-left: -10px;
+  margin-right: 19px;
+}
+
+.feat-cap-Title_e span {
+  font-weight: 300;
+}
+.feat-cap-Title_e {
+  font-weight: 500;
+}
+.text-white_e {
+  font-weight: 700;
+}
+.feat-cap-Title_e,
+.text-white_e,
+.feat-cap-TitleB_e {
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-bottom: 37px;
+}
+.feat-cap-TitleB_e {
+  font-weight: 500;
+}
+
+.feat-cap-TitleB_e {
+  margin-bottom: 3.1rem;
+}
+
+.feat-cap-Title {
+  margin-bottom: 46px;
+}
+.feat-cap > h3 {
+  margin-bottom: 23px;
+}
+
+.pb-225 {
+  padding-bottom: 225px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main top slick Section ---------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main counter Section -----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.countContentWrap {
+  padding-left: 70px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main counter Section -----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main WKF Introduce Section -----------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.mainnTitle1 {
+  font-size: 47px !important;
+}
+
+.main_t1_BtWrap {
+  font-size: 19px;
+}
+
+.main_t1_Txt {
+  font-size: 21px;
+}
+
+.mainnTitle1_e {
+  font-size: 42px !important;
+}
+.mainnTitle2_e {
+  font-size: 42px !important;
+}
+.main_t1_Txt_e {
+  font-size: 20px;
+}
+.main_t1_BtWrap_e {
+  font-size: 18px;
+}
+
+.main_t1_BtImg {
+  background-size: contain;
+  width: 27px;
+  height: 30px;
+}
+.thm-btn.brd-btn:hover > .main_t1_BtImg {
+  background-size: contain;
+  width: 27px;
+  height: 30px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main WKF Introduce Section -----------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main WKF VIP Speaker Section ---------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.speaker-boxA {
+  width: 100%;
+}
+.speakerContentWrap {
+  height: auto;
+  align-self: flex-start;
+  max-width: 100%;
+}
+.speaker-boxA .img-fluid {
+  max-width: 100%;
+  min-height: auto;
+}
+
+.speakerTxtWrap {
+  width: 100%;
+}
+.speakerTxtContentBody {
+  width: 100%;
+}
+.speakerTopLine {
+  width: 23px;
+}
+.speakerNameTxt_e {
+  font-size: 20px;
+}
+.speakerCompany_e {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.divHidden {
+  padding: 19px 15px;
+  height: 150px;
+}
+.divHidden2 {
+  padding: 19px 15px;
+  height: 100px !important;
+}
+
+.speakerNameTxt {
+  font-size: 20px;
+}
+.fa-chevron-right {
+  font-size: 13px;
+}
+
+.main_speakerMoreBt_e {
+  font-size: 16px;
+}
+
+.onlineSpkGb {
+  margin-bottom: 3px;
+}
+
+.mainSpeaker_Move {
+  cursor: pointer;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main WKF VIP Speaker Section ---------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main WKF Program Section -------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.innerMenuWrap {
+  border: 1px solid #e9e9e9;
+  border-bottom: 0;
+}
+
+.dayDiv {
+  border: 1px solid #e9e9e9;
+}
+
+.programSessionWrap {
+  cursor: pointer;
+}
+
+.mainProgramDownBt {
+  font-size: 18px;
+}
+
+#sessionListWrap .fa-chevron-right {
+  font-size: 14px;
+}
+
+.programSessionTime {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 15px;
+}
+
+.programSessionTime img {
+  margin-right: 5px;
+}
+
+.programSessionTitle {
+  padding-top: 6px;
+  padding-right: 25px;
+}
+
+/* 260724 세션 상태 버튼 및 뱃지 추가(라이브/준비중/종료) 및 전체 탭 삭제 */
+.sessionStateBadge {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto 0;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+
+  width: 100px;
+  height: 40px;
+  padding: 0 10px;
+  box-sizing: border-box;
+
+  font-size: 14px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.sessionStateBadge .stateIcon {
+  flex: 0 0 auto;
+  width: 24px;
+  display: block;
+}
+
+/* 라이브 버튼 */
+.sessionStateBadge.is-live {
+  background: #dc1c4d;
+  border: 2px solid #dc1c4d;
+  color: #fff;
+}
+
+/* 준비 중 뱃지 */
+.sessionStateBadge.is-ready {
+  background: #fff;
+  border: 2px solid #dc1c4d;
+  color: #dc1c4d;
+}
+
+/* 종료 뱃지 */
+.sessionStateBadge.is-end {
+  background: #fff;
+  border: 2px solid #bbbbbb; 
+  color: #9C9C9C;
+}
+
+@media (max-width: 767px) {
+  .programSessionWrap.position-relative {
+    flex-wrap: wrap;
+    padding-right: 0 !important;
+  }
+
+  .sessionStateBadge {
+    position: static;
+    transform: none;
+    order: 3;
+    margin: 22px 0 10px 12px;
+  }
+  
+  .dayDiv {
+    border: 0;
+  }
+
+  #sessionVenueMenu {
+    height: auto !important;
+  }
+
+  .innerMenuWrapA {
+    height: auto !important;
+  }
+}
+
+.mainProgramDownBt_e {
+  font-size: 16px;
+}
+
+#sessionDayMenu .innerMenu {
+  border: 0;
+  border-right: 1px solid #f0f0f0;
+  font-size: 26px; /* html(2022-05-09 수정)에 있는 수정된 코드 옮김 */
+  font-weight: 700;
+  padding: 21px 0 16px 0;
+}
+
+#sessionDayMenu .innerMenu:last-child {
+  border-right: 0;
+}
+
+#sessionDayMenu .innerMenu span {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.programDownImg {
+  width: 28px;
+  height: 28px;
+  background-size: 28px;
+}
+
+#sessionDayMenu .innerMenuWrap > .innerMenu:after {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 22px;
+  height: 20px;
+  bottom: -7.7%;
+  transition: none !important;
+}
+
+#sessionListWrap {
+  height: auto; /* 스크롤 삭제 - 기존 460px 고정값 제거 */
+}
+
+#sessionPopLeftDiv {
+  height: 100%;
+}
+
+.roomDiv {
+  height: auto; /* 스크롤 삭제 - 기존 height:100% + overflow-y:scroll 제거 */
+  overflow-y: visible;
+  padding: 40px 80px 60px 80px;
+}
+
+/* 거문고홀 삭제로 신라호텔(장충) 영역 폭 확장 */
+.shillaDivFull {
+  width: 100%;
+  flex: 1 1 auto;
+}
+
+.shillaDivFull .shilla_bottom {
+  width: 100%;
+}
+/* // 거문고홀 삭제로 신라호텔(장충) 영역 폭 확장 */
+
+/* 오전/오후 VOD 버튼 추가 */
+.dayVodBtnWrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.dayVodBt {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: #dc1c4d;
+  border: 2px solid #dc1c4d;
+  padding: 14px 20px 14px 21px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.35;
+  text-align: left;
+  transition: background .2s, color .2s;
+}
+
+.dayVodBt:hover,
+.dayVodBt:focus {
+  background: #fff;
+  color: #dc1c4d;
+  text-decoration: none;
+}
+
+.dayVodBtIcon {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  line-height: 0;
+}
+
+.dayVodBtIcon img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.dayVodBtTxt {
+  white-space: nowrap;
+}
+
+@media (min-width: 768px) {
+  /* PC: VOD 버튼을 메뉴탭(Day1/2/3) 위쪽으로 배치 */
+  .sessionTopWrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .sessionTopWrap .dayVodBtnWrap {
+    order: -1;
+  }
+}
+
+@media (max-width: 767px) {
+  
+  .dayVodBtnWrap {
+    justify-content: space-between;
+    gap: 20px;
+    margin: 36px 0 26px;
+  }
+
+  .dayVodBt {
+    flex: 1 1 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 12px;
+    font-size: 15px;
+    text-align: center;
+    white-space: normal;
+  }
+
+  .dayVodBtIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .dayVodBtTxt {
+    white-space: normal;
+    line-height: 1.4;
+  }
+}
+/* // 오전/오후 VOD 버튼 추가 */
+
+/* 메뉴 부분 오류 수정 */
+#sessionVenueMenu .ddp.rlBorder {
+  border-right: 0 !important;
+  box-shadow: none !important;
+}
+
+#sessionVenueMenu .ddp_menu {
+  display: flex;
+  justify-content: center;
+}
+
+#sessionVenueMenu .ddp_menu .innerMenu {
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+#sessionVenueMenu .shilla_bottom,
+#sessionVenueMenu .ddp_menu {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+#sessionVenueMenu .shilla_bottom .innerMenu,
+#sessionVenueMenu .ddp_menu .innerMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+/* // e: 260724 세션 상태 버튼 및 뱃지 추가(라이브/준비중/종료) 및 전체 탭 삭제 */
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main WKF Program Section -------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Knowledge stream Section --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.knowledgeTxtTitle,
+.knowledgeTxtWriter {
+  font-weight: 300;
+}
+
+.knowledgeWrap > button.slick-prev {
+  left: 92.4%;
+}
+
+.mainKnowledgeBtWrap img {
+  max-width: 100%;
+}
+.mainKnowledgeBtTxt {
+  margin-bottom: 10px;
+}
+
+.vodImgBox {
+  width: 100%;
+}
+.vodImgBox img {
+  width: 100%;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Knowledge stream Section --------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Knowledge archive Section -------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.archiveTxtTitle,
+.archiveTxtWriter {
+  font-weight: 300;
+}
+
+.mainArchiveBtWrap img {
+  max-width: 100%;
+}
+.mainArchiveBtTxt {
+  margin-bottom: 10px;
+}
+
+.archiveWrap > button.slick-prev {
+  left: 92.4%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Knowledge archive Section -------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Notice Section ------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.noticeTitleWrap {
+  align-items: flex-end;
+  border-bottom: 5px solid #fff;
+}
+
+.mainNoticeImgIcon {
+  margin-right: 28px;
+}
+
+.mainnTitle3_1 {
+  margin-left: 3px;
+  font-size: 16px;
+}
+.mainnTitle3 {
+  margin-bottom: 15px;
+}
+.mainnTitle3_e {
+  margin-top: 15px;
+}
+
+.mainNoticeImgIcon {
+  margin-bottom: 21px;
+}
+
+.mainNoticeImgWrap {
+  background-image: url('/2022/assets/images/wkf/m_n.png');
+  background-size: cover;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Notice Section ------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Partner Section -----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.mainPartnerLogoWrap {
+  width: 48%;
+}
+
+.mainOurPartnerWrap ul.slick-dots {
+  padding: 0 0.9375rem;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.mainOurPartnerWrap ul.slick-dots > li {
+  margin: 0 0.3rem;
+}
+
+.mainOurPartnerWrap > button.slick-arrow {
+  position: absolute;
+  background-color: transparent;
+  padding: 0;
+  top: 4.825rem;
+  height: 48px;
+  width: 27px;
+}
+
+.mainOurPartnerWrap > button.slick-next {
+  right: -7%;
+}
+.mainOurPartnerWrap > button.slick-prev {
+  left: -8%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Partner Section -----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Footer Section ------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*
+.familySiteWrap{cursor:pointer;}
+.familySiteBody{width:100%;height:100%;position:absolute;top:0;left:0;z-index:9;background:rgba(0,0,0,0.7);display:none;}
+.familyCloseBt{position:absolute;width:24px;height:24px;right:15px;top:15px;cursor:pointer;}
+.familyContentBody{width:100%;height:100%;display:flex;justify-content:center;align-items:center;}
+.familyContentWrap{width:65%;height:70%;display:flex;justify-content:space-between;align-items:center;}
+.familyLogoWrap{width:33.33%;display:flex;justify-content:center;align-items:center;cursor:pointer;}
+
+*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Main Footer Section ------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub Partner Section -----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+h1 {
+  line-height: 1.5;
+}
+.bb-lined0 {
+  border-bottom: 1px solid #d0d0d0;
+}
+.subPartnerLogoWrap {
+  width: 19%;
+  height: 100px;
+  /* border: 1px solid #e7e7e7; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.mr-11 {
+  margin-right: 14px;
+  background: #ffffff;
+}
+
+.mr-11:nth-child(5n) {
+  margin-right: 0;
+}
+
+.subPartnerLogoContent {
+  width: 70%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.subPartnerLogoContent img {
+  max-height: 100%;
+}
+
+.subPartnerLogoWrap {
+  cursor: pointer;
+}
+.subPartnerMove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.bannerImgWrap {
+  width: 45%;
+}
+
+.subPartnerBannerLogoWrap {
+  width: 100%;
+}
+.subPartnerBannerLogoWrap img {
+  width: 100%;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub Partner Section -----------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.programSessionBt {
+  cursor: pointer;
+}
+
+.bannerImgWrap ul.slick-dots {
+  padding: 0 0.9375rem;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bannerImgWrap ul.slick-dots > li {
+  margin: 0 0.3rem;
+}
+
+.bannerImgWrap > button.slick-arrow {
+  position: absolute;
+  background-color: transparent;
+  padding: 0;
+  top: 7.825rem;
+  height: 48px;
+  width: 27px;
+}
+
+.bannerImgWrap > button.slick-next {
+  right: -19%;
+}
+.bannerImgWrap > button.slick-prev {
+  left: -19%;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub Common ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.titleTopLineA {
+  width: 50px;
+  height: 7px;
+  background: #dc1c4d;
+  margin-bottom: 10px;
+}
+.titleTopLineB {
+  width: 28px;
+  height: 4px;
+  background: #dc1c4d;
+  margin-bottom: 7px;
+}
+.titleTopLineC {
+  width: 32px;
+  height: 5px;
+  background: #dc1c4d;
+  margin-bottom: 10px;
+}
+
+.thm-btn:hover span,
+.thm-btn:focus span {
+  width: 80rem;
+  height: 80rem;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.subTop_title_e {
+  font-size: 38px;
+  line-height: 1.2;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub Common ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 1-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.sub1-1_insta img {
+  margin-right: 6px;
+  width: 32px;
+  height: 32px;
+}
+.plr-5 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.sub1_1_TxtUl {
+  padding-left: 20px;
+}
+
+.sub1_1_txtPWrap .sub1_1_txtG {
+  font-size: 24px;
+}
+.sub1-1_txt_e {
+  font-size: 17px;
+}
+.mapTxtUl_e li:before {
+  display: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 1-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 1-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+#subContent1 .ceoTxtDiv.ceoTxtDiv_e {
+  margin-top: -135px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 1-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 1-3 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.sub1-2_arrowIcon {
+  height: 22px;
+  margin-right: 3px;
+}
+
+.mapTxtUl {
+  padding-left: 55px;
+}
+.mapTxtUl li {
+  position: relative;
+}
+.mapTxtUl li:before {
+  margin-right: 0px;
+  position: absolute;
+  top: 13px;
+  left: -10px;
+  transform: translate(-50%, -50%);
+}
+.mapPlaceDiv {
+  border-bottom: 1px solid #b6b6b6;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 1-3 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 1-5 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.sub1-5_arrowImg {
+  margin-right: 10px;
+  height: 27px;
+}
+.sub1-5_line {
+  border-bottom: 1px solid #c5c5c5;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 1-5 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 2-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.subjectTxtDiv p {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 400;
+  font-size: 17px;
+  color: #656565;
+  margin-bottom: 35px;
+}
+.sub2_chkIcon {
+  margin-right: 5px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 2-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 2-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.programSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+#frm1 > div > div > input::placeholder,
+body
+  > main
+  > section:nth-child(5)
+  > div
+  > div
+  > div.row
+  > div
+  > div:nth-child(2)
+  > div
+  > div
+  > input::placeholder,
+body
+  > main
+  > section:nth-child(5)
+  > div
+  > div
+  > div
+  > div
+  > div:nth-child(2)
+  > form
+  > div
+  > div
+  > input::placeholder,
+div.d-flex.justify-content-center.align-items-center.speakerSelectWrap > div > input::placeholder,
+div.d-flex.justify-content-center.align-items-center.programSelectWrap > div > input::placeholder {
+  color: #666666;
+}
+
+.sub2-2_Bt {
+  padding: 15px 46px;
+}
+.sub2-2_ArrowImgWrap img {
+  margin-right: 5px;
+  height: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 2-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 2-3 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.subMiddleBtWrap .subBtTitleA {
+  font-size: 16px;
+}
+.subMiddleBtWrap .subBtTitleB {
+  font-size: 16px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 2-3 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 3-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.speakerNameTxt {
+  margin-top: 3px;
+}
+.speakerSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 3-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 3-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.speakerCompany {
+  width: 90%;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 3-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 4-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 4-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.fileTxt {
+  margin-right: 19px !important;
+}
+
+.pastForumTopicMenuWrap .pastForumTopicMenu {
+  word-break: break-word;
+  font-size: 14px;
+}
+.pastForumTopicMenuWrap .pastForumTopicMenu:nth-child(2) {
+  width: 15%;
+}
+.pastForumTopicMenuWrap .pastForumTopicMenu:nth-child(6) {
+  width: 15%;
+}
+
+.pastForumTxtTopic {
+  font-weight: 300;
+}
+.pastForumTxtDate {
+  font-weight: 300;
+}
+.pastForumTxtTitle {
+  font-weight: 300;
+  margin-top: 7px;
+}
+
+.sub5_fileImg {
+  height: 19px;
+  width: 22px;
+  margin-right: 5px;
+}
+
+.pastForumDetailContantTxt {
+  font-weight: 300;
+}
+
+.sub5_1_listBt p {
+  font-size: 17px;
+  color: #ffffff;
+}
+.pastForumDetailTitleWrapA .pastForumDetailSpeakerInfo {
+  font-weight: 600;
+}
+
+.sub5_1_highProBtWrap .sub5_1_Bt_1,
+.sub5_1_highProBtWrap .sub5_1_Bt_2 {
+  padding: 17px 0 16px 0;
+}
+
+.sub5_1_highProBtWrap .sub5_1_Bt_1,
+.sub5_1_highProBtWrap .sub5_1_Bt_2,
+.sub5_1_highProBtWrap .sub5_1_Bt_3 {
+  width: 32%;
+  font-weight: 500;
+}
+.sub5_1_speakerBtImg {
+  width: 30px;
+  height: 31px;
+  background-size: 30px;
+  margin-right: 10px;
+  margin-left: -6px;
+}
+
+.pastForumSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+.subBtTitleSub5_1_e {
+  font-size: 17px;
+}
+
+.sub5_1_highProBtWrap .sub5_1_Bt_1_e,
+.sub5_1_highProBtWrap .sub5_1_Bt_2_e,
+.sub5_1_highProBtWrap .sub5_1_Bt_3_e {
+  font-size: 16px;
+}
+
+.topicTxt_etopicTxt_e_m {
+  font-weight: 500;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.knowledgePortalDetailTitleWrapA .knowledgePortalDetailTitle {
+  font-weight: 600;
+}
+.knowledgePortalDetailTitleWrapA .knowledgePortalDetailSpeakerInfo {
+  font-weight: 600;
+}
+
+.sub5_2_listBt p {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.knowledgePortalSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-3 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.knowledgePortalTxtDate {
+  font-weight: 300;
+}
+.knowledgePortalTxtTitle {
+  font-weight: 300;
+  margin-top: 7px;
+}
+.sub5_3_listBt p {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.knowlStreamDetailTitleWrapA .knowlStreamDetailTitle {
+  font-weight: 600;
+}
+.knowlStreamDetailTitleWrapA .knowlStreamDetailSpeakerInfo {
+  font-weight: 600;
+}
+
+.knowlStreamTxtDate {
+  font-weight: 300;
+}
+.knowlStreamTxtTitle {
+  font-weight: 300;
+  margin-top: 7px;
+}
+
+.knowlStreamSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-3 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-4 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.citizenTxtDate {
+  font-weight: 300;
+}
+.citizenTxtTitle {
+  font-weight: 300;
+  margin-top: 7px;
+}
+.citizenTxtWrap {
+  height: 125px;
+}
+
+.citizenDetailTitleWrapA .citizenDetailTitle {
+  font-weight: 600;
+}
+.citizenDetailTitleWrapA .citizenDetailSpeakerInfo {
+  font-weight: 600;
+}
+
+.sub5_4_listBt p {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.citizenSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-4 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-5 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.grobalForum_title {
+  top: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.grobalForum_table_p {
+  width: 100%;
+}
+.grobalForum_table_p th {
+  width: 30%;
+  text-align: center;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 5px;
+  background: #ad0038;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 600;
+}
+.grobalForum_table_p td {
+  width: 30%;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 5px;
+  color: #808080;
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 300;
+}
+
+.grobalForum_title span {
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 600;
+}
+
+.grobalForum_table_e td {
+  font-size: 14px;
+}
+
+.grobalForum_title_e {
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  top: 81px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 430px;
+  height: 50px;
+  line-height: 50px;
+  background: #db1c4d;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.grobalForum_title_e span {
+  position: absolute;
+  left: 50px;
+  font-size: 18px;
+  font-family: 'Noto Sans KR', sans-serif !important;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+.grobalForum_title_e span:last-child {
+  left: auto;
+  right: 50px;
+}
+
+.grobalForum_title_e:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -100px;
+  width: 80%;
+  height: 50px;
+  -webkit-transform: skew(-30deg);
+  -moz-transform: skew(-30deg);
+  -o-transform: skew(-30deg);
+  background-color: #ad0038;
+  content: '';
+}
+
+.grobalForum_title_e {
+  top: 0px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.grobalForum_title_e:after {
+  width: 71%;
+}
+.grobalForum_title_e span {
+  left: 65px;
+}
+.grobalForum_title_e span:last-child {
+  right: 65px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 5-5 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 6-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+.sub6_1_1_fileImg {
+  height: 19px;
+  width: 22px;
+  margin-right: 5px;
+}
+
+.pagination-wrap .scoreRegul {
+  font-size: 16px;
+}
+
+.pagination-wrap .fa-angle-double-left {
+  color: #444444;
+}
+.pagination-wrap .fa-angle-double-right {
+  color: #444444;
+}
+
+.newsSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+.newMainTilte {
+  line-height: 1.5;
+}
+
+.sub6_1_listBt p {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 6-1 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 6-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.noticeMainTilte {
+  line-height: 1.5;
+}
+.sub6_2_listBt p {
+  font-size: 17px;
+  color: #ffffff;
+}
+
+.noticeSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+.noticeContentTxt2 {
+  text-align: left;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 6-2 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 6-3 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.eventImgSelectWrap .schWrap input {
+  height: 48px !important;
+  background-size: 48px;
+}
+
+.eventImgTilte {
+  line-height: 1.5;
+}
+
+.sub6_3_listBt p {
+  font-size: 17px;
+  color: #ffffff;
+}
+.eventImgTxtDate {
+  font-weight: 400;
+}
+
+.contentImgBody {
+  padding-top: 40px;
+}
+.contentImgBody:first-child {
+  padding-top: 0px;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* Sub 6-3 Section ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* speakerPop Modal ---------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.speakerTopLineImg {
+  width: 24px;
+  height: 3px;
+}
+.speakerPopSessionTxtA {
+  font-size: 21px;
+  color: #dc1c4d;
+  font-weight: 600;
+}
+.speakerPopSessionTitle {
+  padding-left: 0;
+  font-size: 17px;
+  font-weight: 600;
+}
+.speakerPopInfoTxt {
+  font-size: 16px;
+  font-weight: 600;
+  color: #656565;
+}
+.speakerPopInfoTxtWrap {
+  width: 100%;
+  height: 60%;
+  max-height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 15px;
+  overflow-y: scroll;
+  overflow-wrap: anywhere;
+}
+
+.speakerPopInfoTxtWrap::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+.speakerPopInfoTxtWrap::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+.speakerPopInfoTxtWrap::-webkit-scrollbar-thumb:hover {
+  background: #c1c1c1;
+}
+.speakerPopInfoTxtWrap::-webkit-scrollbar {
+  width: 5.2px;
+}
+
+.speakerPopInfoTxtContentBody {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-left: 35px;
+}
+
+.speakerPopImgWrap {
+  max-width: 300px;
+  margin: 0 auto;
+  padding-top: 25px;
+  height: 55%;
+}
+.speakerPopTxtWrap {
+  max-width: 300px;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* speakerPop Modal ---------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* sessionPop Modal ---------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.sessionPopSessionTxt {
+  font-size: 23px;
+}
+
+.sessionPopSessionTitle {
+  font-size: 19px;
+}
+
+.sessionTopLineImg {
+  width: 22px;
+  height: 3px;
+}
+
+.sessionPopTxtA {
+  font-size: 16px;
+  margin-bottom: 0;
+  line-height: 1.2;
+}
+.sessionPopTimePlaceInfo,
+.sessionPopSpeakerInfo,
+.sessionPopModeratorInfo {
+  font-size: 15px;
+}
+
+.sessionPopLeftBottom::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+.sessionPopLeftBottom::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+.sessionPopLeftBottom::-webkit-scrollbar-thumb:hover {
+  background: #c1c1c1;
+}
+.sessionPopLeftBottom::-webkit-scrollbar {
+  width: 5.2px;
+}
+
+.sessionDetailInfoWrap {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.sessionDetailInfoWrap:last-child {
+  margin-bottom: 0;
+}
+
+.sessionPopInfoTxt {
+  font-size: 16px;
+  font-weight: 600;
+  color: #656565;
+}
+
+.sessionPopInfoTxtContentBody {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.sessionPopInfoTxtWrap {
+  width: 100%;
+  height: 100%;
+  max-height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 15px;
+  overflow-wrap: anywhere;
+  overflow: auto;
+}
+
+/* s: 260724 세션 팝업 모달 */
+
+/* 세션 영상 영역 */
+.sessionPopVideoWrap {
+  width: 100%;
+  height: 100%;
+  padding: 25px 25px 30px 25px;
+  box-sizing: border-box;
+}
+
+.sessionPopVideoArea {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 비율 - 실제 사이트 유튜브 임베드 방식과 동일 */
+}
+
+.sessionPopVideoIframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+@media (max-width: 767px) {
+  .sessionPopVideoWrap {
+    height: auto;
+    padding: 20px 12px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+
+  #sessionPopModal.show {
+    align-items: flex-start !important;
+    padding: 24px 8px !important; /* 260724 팝업 자체 너비를 넓히기 위해 좌우 여백 축소 */
+  }
+  #sessionPopModal.show .modal-dialog {
+    width: 100%;
+    max-width: 100%;
+    margin: auto !important;
+  }
+
+  #sessionPopModal.show > div {
+    align-items: flex-start !important;
+    height: auto !important;
+    min-height: 100%;
+  }
+
+  /* 영상 영역이 위, 텍스트 영역이 아래로 오도록 순서 변경 (마크업 순서는 그대로 유지) */
+  #sessionContentBody {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  #sessionContentBody,
+  #sessionContentBody .row {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #sessionPopRightDiv {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #sessionPopLeftDiv {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    flex: 0 0 100%;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* 간격 정리 */
+  .sessionPopLeftContentBody {
+    height: auto;
+    padding: 20px 16px 38px !important;
+  }
+
+  .sessionPopLeftBottom {
+    max-height: none;
+    overflow: visible;
+  }
+
+  .sessionDetailInfoWrap {
+    margin-bottom: 12px;
+  }
+
+  .sessionPopLeftTop {
+    margin-bottom: 12px;
+  }
+  
+  .sessionDetailInfoWrap:first-child {
+    margin-top: 8px;
+  }
+}
+/* // e: 260724 세션 팝업 모달*/
+
+.sessionPopInfoTxtWrap::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+.sessionPopInfoTxtWrap::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+}
+.sessionPopInfoTxtWrap::-webkit-scrollbar-thumb:hover {
+  background: #c1c1c1;
+}
+.sessionPopInfoTxtWrap::-webkit-scrollbar {
+  width: 5.2px;
+}
+
+.sessionPopLeftContentBody {
+  height: 92%;
+}
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* sessionPop Modal ---------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
+/* parnter registry ---------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------*/
+
+.feeWrap {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.feeWrap > input[type='number'] {
+  border: 0;
+  box-shadow: none;
+  border-bottom: 1px solid #d8d8d8;
+  border-radius: inherit;
+  width: 15%;
+  transition: all 0.3s ease-in-out;
+}
+
+.feeWrap > input[type='number']:focus {
+  border-bottom: 1px solid #dc1c4d;
+  background-color: #ffffff;
+}
+
+.percent {
+  font-size: 1.3rem;
+}
+
+.fileWrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.fileWrap > div {
+  width: 50%;
+}
+.fileWrap .fileBtn {
+  border: 1px solid #dc1c4d;
+  padding: 8px 15px;
+  background-color: #dc1c4d;
+  color: #fff !important;
+  cursor: pointer;
+}
+
+.fileWrap .fileName {
+  border: 1px solid #d8d8d8;
+  padding: 8px 15px;
+}
+
+.mg-top {
+  margin-top: -30px;
+}
+
+.subscribe {
+  background-color: #f7f7f7;
+  width: 100%;
+  padding: 20px;
+}
+
+/* s: 260724 웨비나 라이브/아카이브 세션 인증 팝업 */
+
+/* 팝업 열렸을 때 배경 스크롤 방지용 클래스 */
+/* 260724 개발 적용: 세션 인증 팝업 오픈 시 <body>(또는 <html>)에 .waScrollLock 클래스 추가/제거 */
+html.waScrollLock,
+body.waScrollLock {
+  overflow: hidden;
+  height: 100%;
+}
+
+.waPopupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: rgba(20, 20, 20, 0.65);
+}
+
+.waPopupBox {
+  position: relative;
+  width: 100%;
+  max-width: 560px;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  padding: 64px 60px 50px;
+  background: #fff;
+  border-radius: 6px;
+  text-align: center;
+}
+
+/* 팝업 닫기 버튼 */
+.waCloseBt {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 22px;
+  height: 22px;
+  padding: 0;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.waCloseBt img {
+  display: block;
+  width: 100%;
+}
+/* // 팝업 닫기 버튼 */
+
+.waPopupLogo {
+  margin-bottom: 12px;
+}
+
+.waPopupLogo img {
+  width: 120px;
+}
+
+.waPopupTitle {
+  margin-bottom: 16px;
+  font-size: 28px;
+  color: #1a1a1a;
+}
+
+.waPopupDesc {
+  margin-bottom: 36px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #646464;
+}
+
+/* 모바일에서만 노출되는 줄바꿈 */
+.waMobileBr {
+  display: none;
+}
+/* //  모바일에서만 노출되는 줄바꿈 */
+
+.waPopupForm {
+  text-align: left;
+}
+
+.waFormGroup {
+  margin-bottom: 22px;
+}
+
+.waLabel {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+}
+
+.waInputWrap {
+  position: relative;
+}
+
+.waInput {
+  width: 100%;
+  padding: 14px 42px 14px 16px;
+  font-size: 15px;
+  color: #1a1a1a;
+  background: #fff;
+  border: 1px solid #d8d8d8;
+  border-radius: 2px;
+  outline: none;
+}
+
+.waInput::placeholder {
+  color: #b4b4b4;
+}
+
+.waInput:focus,
+.waFormGroup.is-filled .waInput {
+  border-color: #1a1a1a;
+}
+
+.waFormGroup.is-error .waInput {
+  border-color: #dc1c4d;
+}
+
+.waClearBt {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  background: #b4b4b4;
+  border: 0;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: none;
+}
+
+/* 인풋에 입력 중(포커스 + 값 있음)일 때만 x버튼 노출 */
+.waInput:focus:not(:placeholder-shown) + .waClearBt {
+  display: block;
+}
+/* // 인풋에 입력 중(포커스 + 값 있음)일 때만 x버튼 노출 */
+
+.waClearBt::before,
+.waClearBt::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 10px;
+  height: 1px;
+  background: #fff;
+}
+
+.waClearBt::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.waClearBt::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+/* 에러 영역 항상 자리 확보(팝업 높이 밀림 방지) */
+.waErrorMsg {
+  display: flex;
+  align-items: flex-start;
+  gap: 4px;
+  height: 34px;
+  margin-top: 8px;
+  padding-left: 20px;
+  font-size: 13px;
+  line-height: 1.5;
+  color: #dc1c4d;
+  position: relative;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+
+.waErrorMsg::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 14px;
+  height: 16px;
+  /* background: url("https://www.wkforum.org/2022/assets/images/wkf/ic_error.png") no-repeat center / contain; */
+  /* 260724 경고텍스트 아이콘 */
+  background: url("/2022/assets/images/wkf/ic_error.png") no-repeat center / contain;
+}
+
+.waFormGroup.is-error .waErrorMsg {
+  visibility: visible;
+  opacity: 1;
+}
+
+.waCheckWrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+  font-size: 14px;
+  color: #333;
+  cursor: pointer;
+  user-select: none;
+}
+
+.waCheckWrap input[type='checkbox'] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.waCheckMark {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  border-radius: 3px;
+  flex: 0 0 auto;
+}
+
+.waCheckWrap input[type='checkbox']:checked + .waCheckMark {
+  background: #dc1c4d;
+  border-color: #dc1c4d;
+}
+
+.waCheckWrap input[type='checkbox']:checked + .waCheckMark::after {
+  content: '';
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  width: 9px;
+  height: 5px;
+  border-left: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.waSubmitBt {
+  width: 100%;
+  padding: 17px;
+  font-size: 16px;
+  color: #fff;
+  background: #dc1c4d;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.waSubmitBt:hover {
+  background: #ad0038;
+}
+
+@media (max-width: 767px) {
+  /* 모바일 바텀시트 전환 (기존 상단 여백 있는 카드형 → 하단 고정 풀블리드 시트) */
+  .waPopupOverlay {
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .waCloseBt {
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .waPopupBox {
+    width: 100%;
+    max-width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    padding: 40px 24px calc(28px + env(safe-area-inset-bottom, 0px));
+    border-radius: 20px 20px 0 0;
+    animation: waSheetUp 0.25s ease-out;
+  }
+
+  @keyframes waSheetUp {
+    from {
+      transform: translateY(100%);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+  /* // 모바일 바텀시트 전환 */
+
+  .waPopupLogo img {
+    width: 100px;
+  }
+
+  .waPopupTitle {
+    font-size: 22px;
+  }
+
+  .waPopupDesc {
+    margin-bottom: 28px;
+  }
+
+  .waMobileBr {
+    display: inline;
+  }
+
+  .waInput {
+    padding: 12px 38px 12px 14px;
+    font-size: 14px;
+  }
+
+  .waSubmitBt {
+    padding: 15px;
+    font-size: 15px;
+  }
+}
+/* // e: 260724 웨비나 라이브/아카이브 세션 인증 팝업 */
+
+@media (max-width: 852px) {
+  .fileWrap {
+    flex-direction: column;
+  }
+  .fileWrap > div {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .fileWrap > div:nth-child(2) {
+    margin-top: 20px;
+  }
+
+  .feeWrap > input[type='number'] {
+    width: 30%;
+  }
+}
+
+/*----------------------------------------------------------------------------------*/
+.opensession_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.opensession_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+
+  padding: 2rem 0;
+  border-bottom: 1px solid #9999995c;
+}
+.opensession_date {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.opensession_planWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding: 0.7rem;
+}
+
+.opensession_plan {
+  color: black;
+  font-weight: 550;
+  font-size: 1.1rem;
+}
+
+.opensession_text {
+  color: #656565;
+  font-size: 0.9rem;
+}
